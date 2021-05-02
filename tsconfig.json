@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "types": [
+      "node",
+      "webdriverio/async",
+      "@wdio/mocha-framework",
+      "@wdio/devtools-service"
+    ]
+  },
+  "include": [
+      "./test/**/*.ts"
+  ]
+}
